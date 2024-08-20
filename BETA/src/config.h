@@ -4,12 +4,12 @@
 namespace Beta
 {
     //Motores
-    const int motor1 = 4;
-    const int motor2 = 16;
-    const int motor3 = 17;
-    const int motor4 = 18;
-    const int motor5 = 19;
-    const int motor6 = 21;
+    const int pin_motor1 = 4;
+    const int pin_motor2 = 16;
+    const int pin_motor3 = 17;
+    const int pin_motor4 = 18;
+    const int pin_motor5 = 19;
+    const int pin_motor6 = 21;
 
     //Leds
     const int LED_PCB = 27;
@@ -21,10 +21,10 @@ namespace Beta
 
 namespace Cenario{
     //Botoeiras de Controle
-    const int botaoAzul = 35;
-    const int botaoVerde = 34;
-    const int botaoVermelho = 39;
-    const int botaoAmarelo = 36;
+    const int pin_botaoAzul = 35;
+    const int pin_botaoVerde = 34;
+    const int pin_botaoVermelho = 39;
+    const int pin_botaoAmarelo = 36;
 
     //Leds
     const int LED_1 = 25;
@@ -36,11 +36,11 @@ namespace Cenario{
     const int AIN2 = 14;
 
     //Sensores de Objetos
-    const int sensorInicio = 5;
-    const int sensorFim = 17;
-    const int sensorRed = 16;
-    const int sensorBlue = 12;
-    const int sensorGreen = 13;
+    const int pin_sensorInicio = 5;
+    const int pin_sensorFim = 17;
+    const int pin_sensorRed = 16;
+    const int pin_sensorBlue = 12;
+    const int pin_sensorGreen = 13;
 
     //Sensor de Cor
     const int LedSensorCor = 3;
@@ -49,14 +49,14 @@ namespace Cenario{
 
 namespace Joystick{
     //Potenciômetros
-    const int pot1 = 0;
-    const int pot2 = 1;
-    const int pot3 = 2;
-    const int pot4 = 3;
-    const int pot5 = 4;
+    const int pin_pot1 = 0;
+    const int pin_pot2 = 1;
+    const int pin_pot3 = 2;
+    const int pin_pot4 = 3;
+    const int pin_pot5 = 4;
 
     //Botão para Acionar a Garra
-    const int botaoGarra = 10;
+    const int pin_botaoGarra = 10;
  
 }
 
